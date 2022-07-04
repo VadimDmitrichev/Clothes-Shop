@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shop project</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<section id="header">
+			<a href="#" class="logo"><img src="../img/logo.png" class="logo" /></a>
+
+			<div>
+				<ul id="navbar">
+					<li><a href="index.html">Главная</a></li>
+					<li><a href="shop.html">Магазин</a></li>
+					<li><a href="blog.html">Блог</a></li>
+					<li><a href="about.html">Про нас</a></li>
+					<li><a href="contact.html" class="active">Контакты</a></li>
+					<li id="lg-bag">
+						<a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+					</li>
+					<a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+				</ul>
+			</div>
+			<div id="mobile">
+				<a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+				<i id="bar" class="fas fa-outdent"></i>
+			</div>
+		</section>
+
+		<section id="page-header" class="contact-header">
+			<h2>#let's_talk</h2>
+			<p>Мы всегда рады вам</p>
+		</section>
+
+		<section id="contact-details" class="section-p1">
+			<div class="details">
+				<span>СВЯЗАТЬСЯ</span>
+				<h2>
+					Приходите в наш магазин или свяжитесь с нами любым удобным для вас
+					способом
+				</h2>
+				<h3>Торговый центр</h3>
+				<div>
+					<li>
+						<i class="fa-solid fa-map-location-dot"></i>
+						<p>город Курск, ул. Карла Маркса, 10</p>
+					</li>
+					<li>
+						<i class="fa-solid fa-envelope"></i>
+						<p>contact@example.com</p>
+					</li>
+					<li>
+						<i class="fa-solid fa-phone"></i>
+						<p>+4 809 235 45</p>
+					</li>
+					<li>
+						<i class="fa-solid fa-clock"></i>
+						<p>10:00 - 22:00, Пон. - Воскр.</p>
+					</li>
+				</div>
+			</div>
+
+			<div class="map">
+				<iframe
+					src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2470.0447048226897!2d36.18951295970326!3d51.75050609106806!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x412f03c8e8630a13%3A0xc34d1fa4b19c6815!2z0YPQuy4g0JrQsNGA0LvQsCDQnNCw0YDQutGB0LAsIDEwLCDQmtGD0YDRgdC6LCDQmtGD0YDRgdC60LDRjyDQvtCx0LsuLCAzMDUwMDQ!5e0!3m2!1sru!2sru!4v1656692213821!5m2!1sru!2sru"
+					width="600"
+					height="450"
+					style="border: 0"
+					allowfullscreen=""
+					loading="lazy"
+					referrerpolicy="no-referrer-when-downgrade"
+				></iframe>
+			</div>
+		</section>
+
+		<section id="form-details">
+			<form action="">
+				<span>ОСТАВЬТЕ НАМ СООБЩЕНИЕ</span>
+				<h2>Мы будем рады выслушать вас</h2>
+				<input type="text" placeholder="Ваше имя" />
+				<input type="text" placeholder="Ваша Фамилия" />
+				<input type="text" placeholder="Email" />
+				<textarea
+					name=""
+					id=""
+					cols="30"
+					rows="10"
+					placeholder="Ваше сообщение"
+				></textarea>
+				<button class="normal">Отправить</button>
+			</form>
+
+			<div class="people">
+				<div>
+					<img src="../img/people.png" alt="" />
+					<p>
+						<span>Имя Фамилия</span>Директор магазина <br />
+						Телефон: +7 999 999 99 99 <br />
+						Email: contact@example.com
+					</p>
+				</div>
+				<div>
+					<img src="../img/people.png" alt="" />
+					<p>
+						<span>Имя Фамилия</span>Директор магазина <br />
+						Телефон: +7 999 999 99 99 <br />
+						Email: contact@example.com
+					</p>
+				</div>
+				<div>
+					<img src="../img/people.png" alt="" />
+					<p>
+						<span>Имя Фамилия</span>Директор магазина <br />
+						Телефон: +7 999 999 99 99 <br />
+						Email: contact@example.com
+					</p>
+				</div>
+			</div>
+		</section>
+
+		<section id="newsletter" class="section-p1 section-m1">
+			<div class="newstext">
+				<h4>Будь на связи</h4>
+				<p>
+					Зарегистрируйся для того чтобы первым узнавать о
+					<span>выгодных предложениях</span>
+				</p>
+			</div>
+			<div class="form">
+				<input type="text" placeholder="Ваш email" />
+				<button class="normal">Регистрация</button>
+			</div>
+		</section>
+
+		<footer class="section-p1">
+			<div class="col">
+				<img class="logo" src="img/logo.png" alt="" />
+				<h4>Контакты</h4>
+				<p><strong>Адрес:</strong> город Курск, ул. Карла Маркса, 10</p>
+				<p><strong>Телефон:</strong> +4 809 235 45</p>
+				<p><strong>Время работы:</strong> 10:00 - 22:00, Пон. - Воскр.</p>
+				<div class="follow">
+					<h4>Подписаться</h4>
+					<div class="icon">
+						<i class="fab fa-instagram"></i>
+						<i class="fa-brands fa-telegram"></i>
+						<i class="fa-brands fa-whatsapp"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<h4>Информация</h4>
+				<a href="#">Про нас</a>
+				<a href="#">Доставка</a>
+				<a href="#">Политика конфиденциальности</a>
+				<a href="#">Связаться с нами</a>
+			</div>
+
+			<div class="col">
+				<h4>Аккаунт</h4>
+				<a href="#">Регистрация</a>
+				<a href="#">Корзина</a>
+				<a href="#">Отслеживать заказ</a>
+				<a href="#">Помощь</a>
+			</div>
+
+			<div class="col install">
+				<h4>Установить приложение</h4>
+				<p>App Store или Google Play</p>
+				<div class="row">
+					<img src="../img/app.jpg" alt="" />
+					<img src="../img/play.jpg" alt="" />
+				</div>
+				<p>Способ оплаты</p>
+				<img src="../img/pay.png" alt="" />
+			</div>
+
+			<div class="copyright">
+				<p>Virtue User © 2022 ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+			</div>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>

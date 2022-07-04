@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Shop project</title>
+		<link rel="stylesheet" href="style.css" />
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+			integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+	</head>
+	<body>
+		<section id="header">
+			<a href="#" class="logo"><img src="../img/logo.png" class="logo" /></a>
+
+			<div>
+				<ul id="navbar">
+					<li><a href="index.html">Главная</a></li>
+					<li><a class="active" href="shop.html">Магазин</a></li>
+					<li><a href="blog.html">Блог</a></li>
+					<li><a href="about.html">Про нас</a></li>
+					<li><a href="contact.html">Контакты</a></li>
+					<li id="lg-bag">
+						<a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+					</li>
+					<a href="#" id="close"><i class="fa-solid fa-xmark"></i></a>
+				</ul>
+			</div>
+			<div id="mobile">
+				<a href="cart.html"><i class="fa-solid fa-cart-shopping"></i></a>
+				<i id="bar" class="fas fa-outdent"></i>
+			</div>
+		</section>
+
+		<section id="prodetails" class="section-p1">
+			<div class="single-pro-image">
+				<img src="../img/p1.jpg" width="100%" id="MainImg" />
+			</div>
+
+			<div class="single-pro-details">
+				<h6>Looney Tunes</h6>
+				<h4>Футболка мужская с принтом</h4>
+				<h2>$21</h2>
+				<select>
+					<option>Выбрать размер</option>
+					<option>XL</option>
+					<option>XXL</option>
+					<option>Small</option>
+					<option>Large</option>
+				</select>
+				<input type="number" value="1" />
+				<button class="normal">Добавить в корзину</button>
+				<h4>Описание</h4>
+				<span
+					>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quia natus,
+					quis accusantium odit, maxime voluptatem ad facere reprehenderit nam
+					consectetur expedita aspernatur fugit aliquid quisquam, quam
+					cupiditate dolorum itaque aut?</span
+				>
+			</div>
+		</section>
+
+		<section id="product1" class="section-p1">
+			<h2>Дополните свой лук</h2>
+			<p>С этим товаром покупают также</p>
+			<div class="pro-container">
+				<div class="pro">
+					<img src="../img/n1.jpg" alt="" />
+					<div class="des">
+						<span>Smile</span>
+						<h5>Худи мужской оверсайз "Smile"</h5>
+						<div class="star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4>$83</h4>
+					</div>
+					<a href="#"><i class="fa-solid fa-basket-shopping cart"></i></a>
+				</div>
+				<div class="pro">
+					<img src="../img/n2.jpg" alt="" />
+					<div class="des">
+						<span>Levi's</span>
+						<h5>Джинсы мужские dad</h5>
+						<div class="star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4>$76</h4>
+					</div>
+					<a href="#"><i class="fa-solid fa-basket-shopping cart"></i></a>
+				</div>
+				<div class="pro">
+					<img src="../img/n3.jpg" alt="" />
+					<div class="des">
+						<span>Vans</span>
+						<h5>Кеды мужские "Smile"</h5>
+						<div class="star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4>$88</h4>
+					</div>
+					<a href="#"><i class="fa-solid fa-basket-shopping cart"></i></a>
+				</div>
+				<div class="pro">
+					<img src="../img/n4.jpg" alt="" />
+					<div class="des">
+						<span>Chloe</span>
+						<h5>Bomber женский</h5>
+						<div class="star">
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+							<i class="fas fa-star"></i>
+						</div>
+						<h4>$96</h4>
+					</div>
+					<a href="#"><i class="fa-solid fa-basket-shopping cart"></i></a>
+				</div>
+			</div>
+		</section>
+
+		<section id="newsletter" class="section-p1 section-m1">
+			<div class="newstext">
+				<h4>Будь на связи</h4>
+				<p>
+					Зарегистрируйся для того чтобы первым узнавать о
+					<span>выгодных предложениях</span>
+				</p>
+			</div>
+			<div class="form">
+				<input type="text" placeholder="Ваш email" />
+				<button class="normal">Регистрация</button>
+			</div>
+		</section>
+
+		<footer class="section-p1">
+			<div class="col">
+				<img class="logo" src="img/logo.png" alt="" />
+				<h4>Контакты</h4>
+				<p><strong>Адрес:</strong> город Курск, ул. Карла Маркса, 10</p>
+				<p><strong>Телефон:</strong> +4 809 235 45</p>
+				<p><strong>Время работы:</strong> 10:00 - 22:00, Пон. - Воскр.</p>
+				<div class="follow">
+					<h4>Подписаться</h4>
+					<div class="icon">
+						<i class="fab fa-instagram"></i>
+						<i class="fa-brands fa-telegram"></i>
+						<i class="fa-brands fa-whatsapp"></i>
+					</div>
+				</div>
+			</div>
+
+			<div class="col">
+				<h4>Информация</h4>
+				<a href="#">Про нас</a>
+				<a href="#">Доставка</a>
+				<a href="#">Политика конфиденциальности</a>
+				<a href="#">Связаться с нами</a>
+			</div>
+
+			<div class="col">
+				<h4>Аккаунт</h4>
+				<a href="#">Регистрация</a>
+				<a href="#">Корзина</a>
+				<a href="#">Отслеживать заказ</a>
+				<a href="#">Помощь</a>
+			</div>
+
+			<div class="col install">
+				<h4>Установить приложение</h4>
+				<p>App Store или Google Play</p>
+				<div class="row">
+					<img src="../img/app.jpg" alt="" />
+					<img src="../img/play.jpg" alt="" />
+				</div>
+				<p>Способ оплаты</p>
+				<img src="../img/pay.png" alt="" />
+			</div>
+
+			<div class="copyright">
+				<p>Virtue User © 2022 ВСЕ ПРАВА ЗАЩИЩЕНЫ</p>
+			</div>
+		</footer>
+
+		<script src="main.js"></script>
+	</body>
+</html>
